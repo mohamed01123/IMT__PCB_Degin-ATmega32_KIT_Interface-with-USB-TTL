@@ -1,4 +1,4 @@
-🔧 About Me – PCB Design Project
+🔧  PCB Design Project
 This project is a 2-layer PCB design made to interface with a USB to TTL module and a microcontroller (ATmega32). The main goal of the project is to allow easy programming and testing of the ATmega32 using a simple USB connection and a stable power source.
 
 🎯 Main Features:
