@@ -2743,7 +2743,7 @@
 	)
 	(text_box "MIC__ATmega32"
 		(exclude_from_sim no)
-		(at 120.65 13.97 0)
+		(at 120.65 12.7 0)
 		(size 71.12 125.73)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2820,16 +2820,6 @@
 			(justify left top)
 		)
 		(uuid "f8c03500-8c4f-4fc5-ac9b-b8507d0e358f")
-	)
-	(wire
-		(pts
-			(xy 162.56 26.67) (xy 165.1 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "151b9c89-1e64-486a-89ae-181d0e92443c")
 	)
 	(wire
 		(pts
@@ -3097,7 +3087,7 @@
 			)
 		)
 	)
-	(global_label "PD2"
+	(global_label "PA7"
 		(shape input)
 		(at 95.25 74.93 0)
 		(fields_autoplaced yes)
@@ -3109,7 +3099,7 @@
 		)
 		(uuid "14a45489-0758-42bd-bcf7-8da7fcc70864")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9847 74.93 0)
+			(at 101.8033 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3331,7 @@
 	)
 	(global_label "VCC_MIC"
 		(shape input)
-		(at 163.83 26.67 90)
+		(at 162.56 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3351,7 +3341,7 @@
 		)
 		(uuid "2312e056-b3f5-4595-a3f8-7e995bb4f7d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 15.7624 90)
+			(at 162.56 15.7624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3923,7 @@
 			)
 		)
 	)
-	(global_label "PD3"
+	(global_label "PA6"
 		(shape input)
 		(at 95.25 85.09 0)
 		(fields_autoplaced yes)
@@ -3945,7 +3935,7 @@
 		)
 		(uuid "747c5e5b-4193-4367-a6f1-0a512ec6079f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9847 85.09 0)
+			(at 101.8033 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4231,7 @@
 			)
 		)
 	)
-	(global_label "PD4"
+	(global_label "PA5"
 		(shape input)
 		(at 95.25 93.98 0)
 		(fields_autoplaced yes)
@@ -4253,7 +4243,7 @@
 		)
 		(uuid "97d8a8d3-66f1-4046-91be-de0dd77cdcf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9847 93.98 0)
+			(at 101.8033 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +4987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC33-U_Vertical"
+		(property "Footprint" "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Vertical"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -5882,7 +5872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm"
 			(at 143.2052 96.52 0)
 			(effects
 				(font
@@ -6727,7 +6717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm"
 			(at 143.2052 72.39 0)
 			(effects
 				(font
@@ -6864,7 +6854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm"
 			(at 131.7752 72.39 0)
 			(effects
 				(font
@@ -7307,7 +7297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 78.74 115.57 0)
 			(effects
 				(font
